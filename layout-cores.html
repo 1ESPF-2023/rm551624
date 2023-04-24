@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Functions</title>
     <link rel="stylesheet" href="./css/style.css">
-    <script src="./js/script.js"></script>
+    <script src="./js/script.js" defer></script>
 </head>
 <body>
 
@@ -14,20 +14,30 @@
         <span>CABEÇALHO</span>
     </header>
 
+    
+
     <div class="container">
         <aside class="banner-1">
+            <img class="banner-img-1" src="./img/banner-lateral-1.png" alt="">
+            <img class="banner-img-2" src="./img/banner-lateral-2.png" alt="">
+            <img class="banner-img-3" src="./img/banner-lateral-3.png" alt="">
             <span>BANNER-1</span>
         </aside>
         <section class="conteudo">
             <span>CONTEUDO</span>    
         </section>
         <aside class="banner-2">
+            <img class="banner-img-4" src="./img/banner-lateral-1.png" alt="">
+            <img class="banner-img-5" src="./img/banner-lateral-2.png" alt="">
+            <img class="banner-img-6" src="./img/banner-lateral-3.png" alt="">
             <span>BANNER-2</span>
         </aside>
     </div>
     
     <footer class="rodape">
         <span>RODAPÉ</span>
+        <button onclick="mudarImagemBanner1(), mudarImagemBanner2()">STARTt</button>
+        <button onclick="clearTimeout(tmp1), clearTimeout(tmp2)">STOP</button>
     </footer>
 </body>
 </html>
