@@ -1,5 +1,3 @@
-// //recuperando o botão com o getElementById
-// const botao = document.getElementById("btn-1")
 
 // //Recuperar um item específico com a função querySelector(parâmetro)
 // const seletor = document.querySelector("li")
@@ -103,137 +101,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 let tmp1 = ""
 let tmp2 = ""
 
@@ -310,5 +177,26 @@ function mudarImagemBanner1() {
         tmp2 = setTimeout(mudarImagemBanner2, 500)
         }
 
+
 mudarImagemBanner1();
 mudarImagemBanner2();
+
+console.log(seletores)
+
+
+/*
+var                         - variável
+let                         - variável
+const                       - variável
+document.write              - 
+alert                       -
+if                          - estrutura condicional
+document.getElementById     - resgata um elemento pelo id
+.addEventListener           - adiciona eventos a algum elemento
+.style                      - código para usar css no js
+function                    - cria uma função
+switch                      - cria uma switch case
+.querrySelector             - resgata elementos dentro de uma variável ou tag
+.textContent                - verifica o conteúdo dentro de algum elemento
+*/
+
