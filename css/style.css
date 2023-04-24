@@ -13,21 +13,27 @@
 }
 
 .banner-1{
-    flex-grow: 1;
+    /* flex-grow: 1; */
     background-color: blueviolet;
     color: #fff;
+    height: 60vh;
+    width: 20vh;
 }
 
 .conteudo{
-    flex-grow: 5;
+    /* flex-grow: 5; */
     background-color: brown;
     color: #fff;
+    height: 60vh;
+    width: 100vh;
 }
 
 .banner-2{
-    flex-grow: 1;
+    /* flex-grow: 1; */
     background-color: chocolate;
     color: #fff;
+    height: 60vh;
+    width: 20vh;
 }
 
 .rodape{
@@ -37,4 +43,41 @@
     height: 20vh;
     background-color: crimson;
     color: #fff;
+}
+
+.banner-img-1{
+    height: 60vh;
+    position: absolute;
+    width: 20vh;
+}
+
+.banner-img-2{
+    height: 60vh;
+    position: absolute;
+    width: 20vh;
+}
+
+
+.banner-img-3{
+    height: 60vh;
+    position: absolute;
+    width: 20vh;
+}
+
+.banner-img-4{
+    height: 60vh;
+    position: absolute;
+    width: 20vh;
+}
+
+.banner-img-5{
+    height: 60vh;
+    position: absolute;
+    width: 20vh;
+}
+
+.banner-img-6{
+    height: 60vh;
+    position: absolute;
+    width: 20vh;
 }
