@@ -9,31 +9,31 @@
 
 .container{
     display: flex;
-    height: 60vh;
+    height: auto;
 }
 
 .banner-1{
-    /* flex-grow: 1; */
+    flex-grow: 1;
     background-color: blueviolet;
     color: #fff;
-    height: 60vh;
-    width: 20vh;
+    /* height: 60vh;
+    width: 20vh; */
 }
 
 .conteudo{
-    /* flex-grow: 5; */
+    flex-grow: 5;
     background-color: brown;
     color: #fff;
-    height: 60vh;
-    width: 100vh;
+    /* height: 60vh;
+    width: 100vh; */
 }
 
 .banner-2{
-    /* flex-grow: 1; */
+    flex-grow: 1;
     background-color: chocolate;
     color: #fff;
-    height: 60vh;
-    width: 20vh;
+    /* height: 60vh;
+    width: 20vh; */
 }
 
 .rodape{
@@ -45,7 +45,7 @@
     color: #fff;
 }
 
-.banner-img-1{
+/* .banner-img-1{
     height: 60vh;
     position: absolute;
     width: 20vh;
@@ -80,4 +80,4 @@
     height: 60vh;
     position: absolute;
     width: 20vh;
-}
+} */
